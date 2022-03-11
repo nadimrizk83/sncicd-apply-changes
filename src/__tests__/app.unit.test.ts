@@ -25,7 +25,7 @@ describe(`App lib`, () => {
             const app = new App(props)
 
             expect(app.buildRequestUrl(options)).toEqual(
-                `https://${props.nowSourceInstance}.service-now.com/api/sn_cicd/sc/apply_changes?app_sys_id=${options.app_sys_id}`,
+                `https://${props.nowSourceInstance}.servicenowservices.com/api/sn_cicd/sc/apply_changes?app_sys_id=${options.app_sys_id}`,
             )
         })
         it(`without instance parameter`, () => {
@@ -42,7 +42,7 @@ describe(`App lib`, () => {
             const app = new App(props)
 
             expect(app.buildRequestUrl(options)).toEqual(
-                `https://${props.nowSourceInstance}.service-now.com/api/sn_cicd/sc/apply_changes?app_sys_id=${options.app_sys_id}`,
+                `https://${props.nowSourceInstance}.servicenowservices.com/api/sn_cicd/sc/apply_changes?app_sys_id=${options.app_sys_id}`,
             )
         })
         it(`with just scope parameter`, () => {
@@ -51,7 +51,7 @@ describe(`App lib`, () => {
             const app = new App(props)
 
             expect(app.buildRequestUrl(options)).toEqual(
-                `https://${props.nowSourceInstance}.service-now.com/api/sn_cicd/sc/apply_changes?app_scope=${options.app_scope}`,
+                `https://${props.nowSourceInstance}.servicenowservices.com/api/sn_cicd/sc/apply_changes?app_scope=${options.app_scope}`,
             )
         })
     })
