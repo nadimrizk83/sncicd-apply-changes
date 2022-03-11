@@ -10,7 +10,7 @@
     "noUnusedParameters": true,
     "noImplicitAny": true,
     "removeComments": false,
-    "preserveConstEnums": true
+    "preserveConstEnums": true,
     "useUnknownInCatchVariables": true
   },
   "include": ["**/*.ts"],
