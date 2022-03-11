@@ -78,7 +78,7 @@ export default class App {
             throw new Error(Errors.INCORRECT_CONFIG)
 
         const params: string = this.buildParams(options)
-        return `https://${this.props.nowSourceInstance}.servicenowservices.comf/api/sn_cicd/sc/apply_changes?${params}`
+        return `https://${this.props.nowSourceInstance}.servicenowservices.com/api/sn_cicd/sc/apply_changes?${params}`
     }
 
     /**
