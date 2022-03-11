@@ -11,6 +11,7 @@
     "noImplicitAny": true,
     "removeComments": false,
     "preserveConstEnums": true
+    "useUnknownInCatchVariables": true
   },
   "include": ["**/*.ts"],
   "exclude": ["node_modules", "**/__tests__"]
