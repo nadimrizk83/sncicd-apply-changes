@@ -10,8 +10,7 @@
     "noUnusedParameters": true,
     "noImplicitAny": true,
     "removeComments": false,
-    "preserveConstEnums": true,
-    "useUnknownInCatchVariables": true
+    "preserveConstEnums": true
   },
   "include": ["**/*.ts"],
   "exclude": ["node_modules", "**/__tests__"]
